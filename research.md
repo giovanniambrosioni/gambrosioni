@@ -3,7 +3,7 @@ layout: default
 title: Research
 ---
 
-## Papers and preprints
+
 <h2>Research interests</h2>
 I am interested in categorical symplectic geometry and its persistence version.
 
@@ -19,17 +19,18 @@ In preparation:
 </ol>
 
 
-
+<!--
 <h3>Some notes about topics I like to think about</h3>
 Here are some notes that I wrote over the years. Some of this material will converge in my thesis in March 2026.
 <ul>
 <li>A detailed guide to Abouzaid's algebraic split-generation criterion, with and without $A_\infty$-modules</li>
-<li>Smoothness, split-generation and Abouzaid criterion following Ganatra, with a naive idea on how to prove equivalence.
+<li>Smoothness, split-generation and Abouzaid criterion following Ganatra, with a naive idea on how to prove equivalence.</li>
 <li>Introduction to persistence and triangulation in Lagrangian topology</li>
 <li>Some quantitative results on split-generation which will not appear anytime soon</li>
 <li>Errata on unitality of filtered Fukaya categories (thanks to Mohammed Abouzaid for pointing out the mistake.)</li>
 <li>Quasi-rigidity of Lagrangians in approximable Fukaya categories: relation to Viterbo conjecture and the equator conjecture</li>
 </ul>
+-->
 
 <h3>Theses</h3>
 <ul>
