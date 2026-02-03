@@ -73,9 +73,17 @@
 
 .site-title {
   font-family: "Helvetica Neue", Arial, sans-serif; // change font
-  font-size: 2rem;                                  // change size
+  font-size: 1.5rem;                                // change size
   color: #b22222;                                   // change color
   font-weight: 700;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header h1 a {
+  color: #b22222;
 }
 
 @import "{{ site.theme }}";
