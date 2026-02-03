@@ -13,3 +13,10 @@ kramdown:
 
 # Add a custom footer or modify/remove the existing one
 # footer: "2024 Marco Badran"
+
+header_pages:
+  - index.md
+  - Talks.md
+  - research.md
+  - teaching.md
+  - blog.md
