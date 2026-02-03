@@ -7,5 +7,71 @@
   color: #b22222;                                   /* change color */
   font-weight: 700;
 }
+
+/* Tabs Layout */
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px;
+}
+
+.sidebar-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all 0.3s;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.tab:hover {
+  background-color: #f0f0f0;
+}
+
+.tab.active {
+  background-color: #e8e8e8;
+  border-left-color: #b22222;
+  font-weight: bold;
+  border-left-width: 4px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  
+  .sidebar-tabs {
+    flex-direction: row;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding-right: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }
+  
+  .tab {
+    white-space: nowrap;
+  }
+}
+
 @import "{{ site.theme }}";
 // @import "jekyll-theme-minimal";
