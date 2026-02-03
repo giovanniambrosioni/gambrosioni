@@ -4,39 +4,43 @@
 
 /* Tabs Layout */
 .wrapper {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 20px;
+  display: block;
 }
 
 .sidebar-tabs {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0;
-  border-right: 1px solid #ccc;
-  padding-right: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .tab {
-  padding: 10px 15px;
+  padding: 8px 16px;
   cursor: pointer;
-  border-left: 3px solid transparent;
+  border-left: none;
   transition: all 0.3s;
-  background-color: #f9f9f9;
-  border: 1px solid #e0e0e0;
-  margin-bottom: 5px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 0;
+  margin-right: 10px;
   font-weight: 500;
+  text-decoration: none;
+  color: #333;
 }
 
 .tab:hover {
-  background-color: #f0f0f0;
+  background-color: transparent;
+  color: #b22222;
 }
 
 .tab.active {
-  background-color: #e8e8e8;
-  border-left-color: #b22222;
+  background-color: transparent;
+  border-left-color: transparent;
   font-weight: bold;
-  border-left-width: 4px;
+  border-left-width: 0;
+  color: #b22222;
 }
 
 .tab-content {
